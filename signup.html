@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #scontainer>div{
+            width:30%;
+            height:470px;
+            border:0px solid green;
+            margin:auto;
+            padding-top:80px;
+            padding-bottom:50px;
+            background-color: aquamarine;
+            margin-top: 50px;
+
+        }
+        #scontainer>div>div{
+            width:80%;
+            height:55px;
+            border:0px solid blue;
+            margin:auto;
+            margin-top:20px;
+        }
+        #scontainer >div>h1{
+         text-align: center;
+         color:white; 
+        }
+        #scontainer>div>div{
+            background-color: white;
+        }
+        #scontainer >div>div>p{
+            margin-left:20px;
+            padding-top: 20px;
+        }
+        #scontainer .sp>h2{
+            text-align: center;
+            font-size: 15px;
+            color:white;
+            padding-top:20px;
+        }
+        #scontainer .sp{
+            background-color:darkgreen;
+            
+        }
+        #navbar{
+            width: 100%;
+            background-color: #1d2938;
+            height: 70px;
+            border-radius: 14px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        #navbar>div{
+            color: white;
+            margin-left: 10px;
+        }
+        #navbar>div+div{
+            width: 40%;
+            height: 70%;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #navbar>div+div>div:hover{
+            color: red;
+            cursor: pointer;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div>Reebok</div>
+        <div>
+        <div  ><a href="./mens.html"> Mens</a></div>
+        <div><a href="./mens.html">Women</a></div>
+        <div><a href="./index.html">Login</a></div>
+        <div><a href="./signup.html"> SignUp</a></div>
+    </div>
+   </div>
+    
+   <div id="scontainer">
+    <div>
+
+    
+    <h1>-Visitor-</h1>  
+    <div>
+        <p>Full name</p>
+    </div>
+    <div>
+        <p>Email</p>
+    </div>
+    <div>
+        <p>Organization</p>
+    </div> 
+
+    <div class="sp"><h2>SIGN UP</h2></div>
+    <div class="sp"><h2>RETURN</h2></div>
+</div>
+    
+    </div>
+    
+</body>
+</html>

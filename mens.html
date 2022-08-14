@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Mens Page</title>
+        <style>
+            #pic{
+                display:flex;
+                justify-content: center;
+                margin-top:50px;
+                
+            }
+            #pic>img{
+                width:80%;
+            
+                
+            }
+            #navbar{
+            width: 100%;
+            background-color: #1d2938;
+            height: 70px;
+            border-radius: 14px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        #navbar>div{
+            color: white;
+            margin-left: 10px;
+        }
+        #navbar>div+div{
+            width: 40%;
+            height: 70%;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #navbar>div+div>div:hover{
+            color: red;
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <div>Reebok</div>
+            <div>
+            <div  ><a href="./mens.html"> Mens</a></div>
+            <div><a href="./mens.html">Women</a></div>
+            <div><a href="./index.html">Login</a></div>
+            <div><a href="./signup.html"> SignUp</a></div>
+        </div>
+        </div>
+        <div id="pic">
+            <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-23/mensPage_879698.png"/>
+        </div> 
+    </body>
+</html>
