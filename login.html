@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        #container{
+            width: 100%;
+            background-image: linear-gradient(to right,#8360c3,#2ebf91);
+            position: absolute;
+            height: 100%;
+            
+            
+        }
+        #sub_container{
+            width: 35%;
+            height: 600px;
+            background-color:#fff;
+            margin: auto;
+            position: relative;
+            top: 150px;
+            border-radius: 10px;
+            
+        }
+        #sub_container >div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:5px
+        }
+        #sub_container >div:nth-child(1){
+            
+            height: 25%;
+            font-size: 35px;
+            font-family: sans-serif;
+            
+        }
+
+        .inp_box{
+            width: 80%;
+            padding: 10px;
+            margin: 20px;
+            border: 0;
+            border-bottom: 4px solid #999;
+            background: transparent;
+            font-size: 20px;
+            outline: none;
+        }
+
+        button{
+            width: 80%;
+            padding: 20px;
+            margin: auto;
+            margin-top: 20px;
+            background-image: linear-gradient(to right,#6328d8,#c952e0);
+            color: #fff;
+            font-size: 20px;
+            border: 0;
+            cursor: pointer;
+
+
+        }
+
+        #sub_container >div:nth-child(3){
+          position: relative;
+          top: 20px;
+          font-size: 1.5em;
+          
+        }
+
+      
+      
+      
+          
+    
+    
+    
+
+    
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sub_container">
+
+            <div>
+               <h2>Login</h2>
+            </div>
+            <div>
+                <input id="mail" class="inp_box" type="text" 
+                placeholder="Email">
+                <input id="pass" class="inp_box" type="text" 
+                placeholder="Password">
+                <button>Login</button>
+            </div>
+            <div>
+            <p>Forgot <a href="">Password?</a></p>
+            <p>Don't have an account ? <a href="">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+        
+    
+</body>
+</html>
