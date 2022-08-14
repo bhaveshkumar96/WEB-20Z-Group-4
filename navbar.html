@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <style>
+        #navbar{
+            width: 100%;
+            background-color: #1d2938;
+            height: 70px;
+            border-radius: 14px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        #navbar>div{
+            color: white;
+            margin-left: 10px;
+        }
+        #navbar>div+div{
+            width: 40%;
+            height: 70%;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #navbar>div+div>div:hover{
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div>Reebok</div>
+        <div>
+        <div>Men</div>
+        <div>Women</div>
+        <div>Login</div>
+        <div>Signup</div>
+    </div>
+    </div>
+</body>
+</html>
